@@ -6,6 +6,7 @@ import pickle
 import time
 import tqdm
 from glob import glob
+from sklearn.metrics import accuracy_score, confusion_matrix
 from tensorflow.contrib.layers import l2_regularizer, xavier_initializer_conv2d
 
 #downloading data
