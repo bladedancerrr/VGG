@@ -1,6 +1,11 @@
+#'same' padding in layers to pad evenly right and left
+#using Momentum Optimizer
+
+
+
 tf.reset_default_graph()
 
-l2_scale = 5 * (10 ** -4) #l2 regularisation
+l2_scale = 5 * (10 ** -4) #L2 regularisation
 
 tf.global_variables_initializer()
 
