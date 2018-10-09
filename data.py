@@ -9,8 +9,7 @@ from glob import glob
 from sklearn.metrics import accuracy_score, confusion_matrix
 from tensorflow.contrib.layers import l2_regularizer, xavier_initializer_conv2d
 
-#downloading data
-
+#lines 15 - 23 was code that was provided by Silverpond during the workshop and not code that I wrote 
 
 
 !test -e ./data/cifar-10-batches-py || \
@@ -19,11 +18,15 @@ from tensorflow.contrib.layers import l2_regularizer, xavier_initializer_conv2d
     && tar -C data -xvzf cifar-10-python.tar.gz) 
 
 
-
-
 #conversion into standard format for images
-
+  
 data_dir = "./data/cifar-10-batches-py"
+
+
+
+#code above provided by Silverpond during workshop. Code below is mine.
+
+
 
 # Training data
 all_train_batches = glob(f"{data_dir}/data_batch*")
