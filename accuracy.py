@@ -13,4 +13,4 @@ predicted_classes = np.argmax(results, axis=1)
 
 acc = accuracy_score(chosen_labels, predicted_classes)
 
-print("Accuracy: {acc}")
+print(acc)
