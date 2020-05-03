@@ -1,6 +1,6 @@
 # VGG_Implementation
 
-VGG: convolutional neural network architecture built for image classification.
+VGG is a convolutional neural network architecture built for image classification.
 It consists of 
 
 1. Convolution + ReLU
